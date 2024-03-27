@@ -1,0 +1,33 @@
+body {
+	background-color: red;
+}
+
+header {
+	background-color: yellow;
+}
+
+#naviagtion {
+	background-color: green;
+}
+section {
+	background-color: cyan;
+}
+
+footer {
+	background-color: #907ba8;
+	height: 50px;
+}
+
+p,
+h2,
+h6,
+ol,
+ul {
+	text-align: center;
+}
+
+ul,
+ol {
+	height: 100px;
+	list-style-type: none;
+}
