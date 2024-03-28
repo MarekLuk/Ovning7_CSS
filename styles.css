@@ -1,33 +1,62 @@
 body {
-	background-color: red;
+	background-color: #fed1a7;
+	color: #1e240c;
+	font-size: 16px;
 }
 
 header {
-	background-color: yellow;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
 }
 
-#naviagtion {
-	background-color: green;
+header img {
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 68px 38px rgba(0, 0, 0, 0.1);
 }
+
+#naviagtion ul {
+	list-style-type: none;
+	display: flex;
+	gap: 30px;
+	padding: 10px;
+	justify-content: center;
+}
+
 section {
-	background-color: cyan;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+}
+ol li {
+	display: inline;
+	margin-right: 20px;
 }
 
 footer {
 	background-color: #907ba8;
+	margin-top: 10px;
 	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	font-size: 16px;
+	border-radius: 20px;
 }
 
-p,
-h2,
-h6,
-ol,
-ul {
-	text-align: center;
-}
-
-ul,
-ol {
-	height: 100px;
-	list-style-type: none;
+iframe {
+	border: none;
+	width: 360px;
+	height: 215px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.45), 0 10px 20px rgba(0, 0, 0, 0.4),
+		0 5px 10px rgba(0, 0, 0, 0.35), 0 2px 5px rgba(0, 0, 0, 0.3);
 }
